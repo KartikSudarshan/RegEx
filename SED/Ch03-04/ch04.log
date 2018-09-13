@@ -1,0 +1,566 @@
+Script started on 2018-09-08 11:40:41+05:30
+[?25l[?7l[0m[34m[1m          /:-------------:\ 
+       :-------------------:: 
+     :-----------[37m[0m[1m/shhOHbmp[0m[34m[1m---:\ 
+   /-----------[37m[0m[1momMMMNNNMMD  [0m[34m[1m---: 
+  :-----------[37m[0m[1msMMMMNMNMP[0m[34m[1m.    ---: 
+ :-----------[37m[0m[1m:MMMdP[0m[34m[1m-------    ---\ 
+,------------[37m[0m[1m:MMMd[0m[34m[1m--------    ---: 
+:------------[37m[0m[1m:MMMd[0m[34m[1m-------    .---: 
+:----    [37m[0m[1moNMMMMMMMMMNho[0m[34m[1m     .----: 
+:--     .[37m[0m[1m+shhhMMMmhhy++[0m[34m[1m   .------/ 
+:-    -------[37m[0m[1m:MMMd[0m[34m[1m--------------: 
+:-   --------[37m[0m[1m/MMMd[0m[34m[1m-------------; 
+:-    ------[37m[0m[1m/hMMMy[0m[34m[1m------------: 
+:--[37m[0m[1m :dMNdhhdNMMNo[0m[34m[1m------------; 
+:---[37m[0m[1m:sdNMMMMNds:[0m[34m[1m------------: 
+:------[37m[0m[1m:://:[0m[34m[1m-------------:: 
+:---------------------:// 
+[17A[9999999D[37C[0m[1m[0m[34m[1mkartiksudarshan@[0m[34m[1mfedora[0m 
+[37C[0m----------------------[0m 
+[37C[0m[34m[1mOS[0m[0m:[0m Fedora release 28 (Twenty Eight) x86_64[0m 
+[37C[0m[34m[1mHost[0m[0m:[0m 80E5 Lenovo G50-80[0m 
+[37C[0m[34m[1mKernel[0m[0m:[0m 4.17.19-200.fc28.x86_64[0m 
+[37C[0m[34m[1mUptime[0m[0m:[0m 2 hours, 50 mins[0m 
+[37C[0m[34m[1mPackages[0m[0m:[0m 2701[0m 
+[37C[0m[34m[1mShell[0m[0m:[0m bash 4.4.23[0m 
+[37C[0m[34m[1mResolution[0m[0m:[0m 1366x768[0m 
+[37C[0m[34m[1mDE[0m[0m:[0m GNOME 3.28.3[0m 
+[37C[0m[34m[1mTheme[0m[0m:[0m Adwaita [GTK2/3][0m 
+[37C[0m[34m[1mIcons[0m[0m:[0m Adwaita [GTK2/3][0m 
+[37C[0m[34m[1mTerminal[0m[0m:[0m script[0m 
+[37C[0m[34m[1mCPU[0m[0m:[0m Intel i5-5200U (4) @ 2.700GHz[0m 
+[37C[0m[34m[1mGPU[0m[0m:[0m AMD Radeon HD 8670A/8670M/8690M[0m 
+[37C[0m[34m[1mGPU[0m[0m:[0m Intel HD Graphics 5500[0m 
+[37C[0m[34m[1mMemory[0m[0m:[0m 3646MiB / 7895MiB[0m 
+
+[37C[0m[30m[40m   [0m[31m[41m   [0m[32m[42m   [0m[33m[43m   [0m[34m[44m   [0m[35m[45m   [0m[36m[46m   [0m[37m[47m   [0m
+
+
+[?25h[?7h]777;notify;Command completed;sudo dnf update]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed ''1'[1P'3'[C,'[1P's'/'u'p'/'U'P'[C..[K[K/'[C ../dukeofyork.txt 
+The grand old Duke of York
+He had ten thousand men
+He marched them UP to the top of the hill
+And he marched them down again
+And when they were up they were up
+And when they were down they were down
+And when they were only half-way up
+They were neither up nor down
+]777;notify;Command completed;sed '3s/up/UP/' ../dukeofyork.txt ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed p ../dukeofyork.txt
+The grand old Duke of York
+The grand old Duke of York
+He had ten thousand men
+He had ten thousand men
+He marched them up to the top of the hill
+He marched them up to the top of the hill
+And he marched them down again
+And he marched them down again
+And when they were up they were up
+And when they were up they were up
+And when they were down they were down
+And when they were down they were down
+And when they were only half-way up
+And when they were only half-way up
+They were neither up nor down
+They were neither up nor down
+]777;notify;Command completed;sed p ../dukeofyork.txt]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed p ../dukeofyork.txt[1@-[1@n[1@ 
+The grand old Duke of York
+He had ten thousand men
+He marched them up to the top of the hill
+And he marched them down again
+And when they were up they were up
+And when they were down they were down
+And when they were only half-way up
+They were neither up nor down
+]777;notify;Command completed;sed -n p ../dukeofyork.txt]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -n ""-""e"" ""[C3"p"[C ../dukeofyork.txt
+He marched them up to the top of the hill
+]777;notify;Command completed;sed -n -e "3p" ../dukeofyork.txt]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -n -e "3p" ../dukeofyork.txt[1P[1@$
+]777;notify;Command completed;sed -n -e "$p" ../dukeofyork.txt]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -n -e "$p" ../dukeofyork.txt[1P[1P
+]777;notify;Command completed;sed -n  "$p" ../dukeofyork.txt]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -n  "$p" ../dukeofyork.txt[C[C[1P[1@1[C[2@-e "$[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C$[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P ../dukeofyork.txt' ../dukeofyork.txt[1P[1@'
+They were neither up nor down
+]777;notify;Command completed;sed -n -e '$p' ../dukeofyork.txt]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -n -e '$p' ../dukeofyork.txt[2P "1p"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@,[1@3
+The grand old Duke of York
+He had ten thousand men
+He marched them up to the top of the hill
+]777;notify;Command completed;sed -n  "1,3p" ../dukeofyork.txt]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -n  "1,3p" ../dukeofyork.txt ../array.c 
+The grand old Duke of York
+He had ten thousand men
+He marched them up to the top of the hill
+]777;notify;Command completed;sed -n  "1,3p" ../dukeofyork.txt ../array.c ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -n  "1,3p" ../dukeofyork.txt ../array.c [1P[1P[1P
+The grand old Duke of York
+He had ten thousand men
+He marched them up to the top of the hill
+And he marched them down again
+And when they were up they were up
+And when they were down they were down
+And when they were only half-way up
+They were neither up nor down
+/* array.c -- read, reverse, and write an array of integers */
+
+#include <stdio.h>
+
+#define MAX 10
+
+void intSwap(int *x, int *y);
+int getArray(int a[], int max, int terminator);
+void printArray(int a[], int n);
+void reverseArray(int a[], int n);
+
+int main(void)
+{
+	int x[MAX];
+	int howMany;
+
+	howMany = getArray(x, MAX, -1);
+	printf("Read the following array:\n");
+	printArray(x, howMany);
+	reverseArray(x, howMany);
+	printf("After being reversed:\n");
+	printArray(x, howMany);
+}
+
+/* swap the contents of x and y */
+void intSwap(int *x, int *y)
+{
+	int tmp = *x;
+	*x = *y;
+	*y = tmp;
+}
+
+/* print the first n elements in the array a */
+void printArray(int a[], int n)
+{
+	int i;
+
+	for ( i=0; i<n; i++ ) {
+		printf("\t%d\n", a[i]);
+	}
+}
+
+/* get up to max integers from the user and store them in a; 
+ * terminator marks end of input */
+int getArray(int a[], int max, int terminator)
+{
+	int n = 0;
+	int tmp;
+
+	do {
+		printf("Enter integer [%d to terminate] : ", terminator);
+		scanf("%d", &tmp);
+		if ( tmp==terminator ) {
+			break;
+		} 
+		if ( n>=max ) {
+			printf("Sorry, array is full\n");
+			return n;
+		} else { 
+			a[n++] = tmp;
+		}
+	} while ( 1 );
+	return n;
+}
+
+/* reverse the order of the first n elements of a */
+void reverseArray(int a[], int n)
+{
+	int i;
+
+	for ( i=0; i<n/2; i++ ) {
+		intSwap(&a[i], &a[n-i-1]);
+	}
+}
+]777;notify;Command completed;sed -n  "p" ../dukeofyork.txt ../array.c ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -n  "p" ../dukeofyork.txt ../array.c [1P[1@/[1@/[1@[[1@][1@T[1@t[C[1@h[1@e[1@[[1@][1@m[1@y
+sed: -e expression #1, char 12: missing command
+]777;notify;Command completed;sed -n  "/[Tt]he[my]/" ../dukeofyork.txt ../array.c ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -n  "/[Tt]he[my]/" ../dukeofyork.txt ../array.c [1@p
+He marched them up to the top of the hill
+And he marched them down again
+And when they were up they were up
+And when they were down they were down
+And when they were only half-way up
+They were neither up nor down
+/* get up to max integers from the user and store them in a; 
+]777;notify;Command completed;sed -n  "/[Tt]he[my]/p" ../dukeofyork.txt ../array.c ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -n  "/[Tt]he[my]/p" ../dukeofyork.txt ../array.c [C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@([1@)[1@a[1@n[1@d[1@|[1@o[1@r
+]777;notify;Command completed;sed -n  "/(and|or)/p" ../dukeofyork.txt ../array.c ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -n  "/(and|or)/p" ../dukeofyork.txt ../array.c [2@[Tt]he[my][C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@m[1@a[1@r[1@c[1@h[1@e[1@d[C[1@,[1@ [1P[1@/[1@/[1@w[1@h[1@e[1@n[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[C[1P[1P[1P[1P[1P[1P [K
+He marched them up to the top of the hill
+And he marched them down again
+And when they were up they were up
+]777;notify;Command completed;sed -n  "/marched/,/when/p" ../dukeofyork.txt ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -n  "/marched/,/when/p" ../dukeofyork.txt [1P[1P[1P[1P[1P[1P[1P[1@h[1@i[1@l[1@l[C[C[C[1P[1P[1P[1P[1@u[1@p
+He marched them up to the top of the hill
+And he marched them down again
+And when they were up they were up
+]777;notify;Command completed;sed -n  "/hill/,/up/p" ../dukeofyork.txt ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -n  "/hill/,/up/p" ../dukeofyork.txt [Ksed -n - [Ke ""/"/"^/"}/"[C,"/"/"^/"{/"[Cp"[C ../array.c 
+}
+
+/* swap the contents of x and y */
+void intSwap(int *x, int *y)
+{
+}
+
+/* print the first n elements in the array a */
+void printArray(int a[], int n)
+{
+}
+
+/* get up to max integers from the user and store them in a; 
+ * terminator marks end of input */
+int getArray(int a[], int max, int terminator)
+{
+}
+
+/* reverse the order of the first n elements of a */
+void reverseArray(int a[], int n)
+{
+}
+]777;notify;Command completed;sed -n -e "/^}/,/^{/p" ../array.c ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -n -e "/^}/,/^{/p" ../array.c [1P[1@\[C[1@/[1@\[1@*[C[C[C[C[1P[C[1P[1@\[1@*[1@\[C[1@/[1@$
+/* array.c -- read, reverse, and write an array of integers */
+
+#include <stdio.h>
+
+#define MAX 10
+
+void intSwap(int *x, int *y);
+int getArray(int a[], int max, int terminator);
+void printArray(int a[], int n);
+void reverseArray(int a[], int n);
+
+int main(void)
+{
+	int x[MAX];
+	int howMany;
+
+	howMany = getArray(x, MAX, -1);
+	printf("Read the following array:\n");
+	printArray(x, howMany);
+	reverseArray(x, howMany);
+	printf("After being reversed:\n");
+	printArray(x, howMany);
+}
+
+/* swap the contents of x and y */
+/* print the first n elements in the array a */
+void printArray(int a[], int n)
+{
+	int i;
+
+	for ( i=0; i<n; i++ ) {
+		printf("\t%d\n", a[i]);
+	}
+}
+
+/* get up to max integers from the user and store them in a; 
+ * terminator marks end of input */
+/* reverse the order of the first n elements of a */
+void reverseArray(int a[], int n)
+{
+	int i;
+
+	for ( i=0; i<n/2; i++ ) {
+		intSwap(&a[i], &a[n-i-1]);
+	}
+}
+]777;notify;Command completed;sed -n -e "/^\/\*/,/\*\/$/p" ../array.c ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -n -e "/^\/\*/,/\*\/$/p" ../array.c [1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[1P[1P[1P[1P[C[1P[1P[1P[1P[1P[1P [K[K"/^}/,/^{/p" ../array.c [7@ "/hill/,/up/p" ../dukeofyork.txt[C[5@marched/,/when[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5@(and|or)/p" ../dukeofyork.txt ../array.c[C[2@[Tt]he[my][C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@1,3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@!
+sed -n  "1,3python3 -m pip install bs4 flask pillow geos line_profiler memory_profiler" ../dukeofyork.txt ../array.c 
+sed: -e expression #1, char 5: extra characters after command
+]777;notify;Command completed;sed -n  "1,3python3 -m pip install bs4 flask pillow geos line_profiler memory_profiler" ../dukeofyork.txt ../array.c ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -n  "1,3python3 -m pip install bs4 flask pillow geos line_profiler memory_profiler" ../dukeofyork.txxt ../array.c [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csed -n  "1,3python3 -m pip install bs4 flask pillow geos line_profiler memory_profiler" ../dukeofyork.txxt ../array.c [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ../dukeofyork.txt[1P[A[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ../dukeofyork.txt [1P[A[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ../dukeofyork.txt .[C[1P[A[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ../dukeofyork.txt ..[1P[A[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ../dukeofyork.txt ../[1P[A[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ../dukeofyork.txt ../a[1P[A[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ../dukeofyork.txt ../ar[C[1P[A[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ../dukeofyork.txt ../arr[1P[A[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ../dukeofyork.txt ../arra[1P[A[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ../dukeofyork.txt ../array[1P[A[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ../dukeofyork.txt ../array.[1P[A[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ../dukeofyork.txt ../array.c[1P [A[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ../dukeofyork.txt ../array.c [K[A[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ../dukeofyork.txt ../array.c  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@![1@p[1@'[1P[1@'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K
+And he marched them down again
+And when they were up they were up
+And when they were down they were down
+And when they were only half-way up
+They were neither up nor down
+]777;notify;Command completed;sed -n  '1,3!p' ../dukeofyork.txt ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -n  '1,3!p' ../dukeofyork.txt [1P[1@f
+sed: -e expression #1, char 5: unknown command: `f'
+]777;notify;Command completed;sed -n  '1,3!f' ../dukeofyork.txt ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -n  '1,3!f' ../dukeofyork.txt [1P[1@d
+]777;notify;Command completed;sed -n  '1,3!d' ../dukeofyork.txt ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0m[H[2J[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0mcat > haha
+HaHa he said Down
+]777;notify;Command completed;cat > haha]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed ''/'d'o'[1P'[1P'd'o'w'n'/'r' 'h'a'h'a'[C ../dukeofyork.txt 
+The grand old Duke of York
+He had ten thousand men
+He marched them up to the top of the hill
+And he marched them down again
+HaHa he said Down
+And when they were up they were up
+And when they were down they were down
+HaHa he said Down
+And when they were only half-way up
+They were neither up nor down
+HaHa he said Down
+]777;notify;Command completed;sed '/down/r haha' ../dukeofyork.txt ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed ''1','3'w' 't'o'p'f'i'l'e'[C ../dukeofyork.txt4[K
+The grand old Duke of York
+He had ten thousand men
+He marched them up to the top of the hill
+And he marched them down again
+And when they were up they were up
+And when they were down they were down
+And when they were only half-way up
+They were neither up nor down
+]777;notify;Command completed;sed '1,3w topfile' ../dukeofyork.txt]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0mcat topfile 
+The grand old Duke of York
+He had ten thousand men
+He marched them up to the top of the hill
+]777;notify;Command completed;cat topfile ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0mcat topfile sed '1,3w topfile' ../dukeofyork.txt[24Pcat topfile [Ksed -e ''/'s'[1P'[1P's'/'u'p'/'U'P'/'w' 'w'r'i't'e'F'i'l'e'U'p'[C topfile../dukeofyork.txt
+The grand old Duke of York
+He had ten thousand men
+He marched them UP to the top of the hill
+And he marched them down again
+And when they were UP they were up
+And when they were down they were down
+And when they were only half-way UP
+They were neither UP nor down
+]777;notify;Command completed;sed -e 's/up/UP/w writeFileUp' ../dukeofyork.txt]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -e 's/up/UP/w writeFileUp' ../dukeofyork.txt[1@g[C[C[C[C[C[C[C[C[C[C[C[C[C[1@G[1@l[1@o[1@b[1@a[1@l
+The grand old Duke of York
+He had ten thousand men
+He marched them UP to the top of the hill
+And he marched them down again
+And when they were UP they were UP
+And when they were down they were down
+And when they were only half-way UP
+They were neither UP nor down
+]777;notify;Command completed;sed -e 's/up/UP/gw writeFileUpGlobal' ../dukeofyork.txt]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -e 's/up/UP/gw writeFileUpGlobal' ../dukeofyork.txt[1P[1@w
+The grand old Duke of York
+He had ten thousand men
+He marched them UP to the top of the hill
+And he marched them down again
+And when they were UP they were up
+And when they were down they were down
+And when they were only half-way UP
+They were neither UP nor down
+]777;notify;Command completed;sed -e 's/up/UP/wg writeFileUpGlobal' ../dukeofyork.txt]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0mls
+ ch04.log  'g writeFileUpGlobal'   haha   sdscript   SED_CH03-04.log   topfile   writeFileUp   writeFileUpGlobal
+]777;notify;Command completed;ls]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0mlssed -e 's/up/UP/wg writeFileUpGlobal' ../dukeofyork.txt[1P[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@U[1@p[1@n[1@o[1@w[C[C[C[C[C[C[C[C[C[C[C[C-../dukeofyork.txte../dukeofyork.txt ../dukeofyork.txt's/up/UP/w Upnow'../dukeofyork.txt[1Pnow'../dukeofyork.txt[1Pnow'../dukeofyork.txtDnow'../dukeofyork.txtonow'../dukeofyork.txtwnow'../dukeofyork.txt[Cnow'../dukeofyork.txt[C[1P[1P[1@d[1@o[1@n[1P[1@w[1@n[C[C[C[1P[1P[1@D[1@O[1@W[1@N
+sed: couldn't open file Downnow../dukeofyork.txt: No such file or directory
+]777;notify;Command completed;sed -e 's/up/UP/w Upnow' -e 's/down/DOWN/w Downnow'../dukeofyork.txt]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -e 's/up/UP/w Upnow' -e 's/down/DOWN/w Downnow'../dukeofyork.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ../dukeofyork.txt
+The grand old Duke of York
+He had ten thousand men
+He marched them UP to the top of the hill
+And he marched them DOWN again
+And when they were UP they were up
+And when they were DOWN they were down
+And when they were only half-way UP
+They were neither UP nor DOWN
+]777;notify;Command completed;sed -e 's/up/UP/w Upnow' -e 's/down/DOWN/w Downnow' ../dukeofyork.txt]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed ''y'[C/'/'a/'b/'c/'d/'e/'f/'[CA'B'C'E'E'F'[1PF'DEF'[C[C[C ../dukeofyork.txt 
+sed: -e expression #1, char 15: unterminated `y' command
+]777;notify;Command completed;sed 'y/abcdef/ABCDEF' ../dukeofyork.txt ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed 'y/abcdef/ABCDEF' ../dukeofyork.txt [C[C[C[C[1@/
+ThE grAnD olD DukE oF York
+HE hAD tEn thousAnD mEn
+HE mArChED thEm up to thE top oF thE hill
+AnD hE mArChED thEm Down AgAin
+AnD whEn thEy wErE up thEy wErE up
+AnD whEn thEy wErE Down thEy wErE Down
+AnD whEn thEy wErE only hAlF-wAy up
+ThEy wErE nEithEr up nor Down
+]777;notify;Command completed;sed 'y/abcdef/ABCDEF/' ../dukeofyork.txt ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0m[H[2J[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed 'y/abcdef/ABCDEF/' ../dukeofyork.txt [C[1P[1P[1P[1P[1P[1P[1@a[1@c[1@e[1@i[1@l[1@o[1@s[1@t[Ksed 'y/aceilost/ABCDEF/' ../dukeofyork.txt [C[C[1P[1P[1P[1P[1P[1P[1@4[1@([1@3[1@![1@1[1@0[1@$[1@+
+Th3 gr4nd 01d Duk3 0f Y0rk
+H3 h4d +3n +h0u$4nd m3n
+H3 m4r(h3d +h3m up +0 +h3 +0p 0f +h3 h!11
+And h3 m4r(h3d +h3m d0wn 4g4!n
+And wh3n +h3y w3r3 up +h3y w3r3 up
+And wh3n +h3y w3r3 d0wn +h3y w3r3 d0wn
+And wh3n +h3y w3r3 0n1y h41f-w4y up
+Th3y w3r3 n3!+h3r up n0r d0wn
+]777;notify;Command completed;sed 'y/aceilost/4(3!10$+/' ../dukeofyork.txt ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed /down/a \
+[0;38;5;252;48;5;240;1m                                             [0;38;5;240;49;22m [0m===> He saidDown
+sed: -e expression #1, char 7: expected \ after `a', `c' or `i'
+]777;notify;Command completed;sed /down/a ===> He saidDown]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed /down/a ===> He saidDown[4P[Ksd[Ked ir[K[K-e ""[K[K''/'d'o'w'n'/'a' '\' '
+^C
+]777;notify;Command completed;sed -e '/down/a \ ']0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -e '/down/a \ '[K
+[0;38;5;252;48;5;240;1m                                             [0;38;5;240;49;22m [0m====> Haha hee[K said down
+[0;38;5;252;48;5;240;1m                                             [0;38;5;240;49;22m [0m' ../duk[K[K[K[K[K[K../dukeofyork.txt
+sed: -e expression #1, char 13: extra characters after command
+]777;notify;Command completed;sed -e '/down/a \ 
+====> Haha he said down
+' ../dukeofyork.txt]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -e '/down/a \ 
+====> Haha he said down
+' ../dukeofyork.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ [C[1P
+
+
+sed: -e expression #1, char 13: extra characters after command
+]777;notify;Command completed;sed -e '/down/ a\ 
+====> Haha he said down
+' ../dukeofyork.txt]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -e '/down/ a\ 
+====> Haha he said down
+' ../dukeofyork.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P
+
+
+sed: -e expression #1, char 13: extra characters after command
+]777;notify;Command completed;sed  '/down/ a\ 
+====> Haha he said down
+' ../dukeofyork.txt]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed  '/down/ a\ 
+====> Haha he said down
+' ../dukeofyork.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 
+
+
+The grand old Duke of York
+He had ten thousand men
+He marched them up to the top of the hill
+And he marched them down again
+====> Haha he said down
+And when they were up they were up
+And when they were down they were down
+====> Haha he said down
+And when they were only half-way up
+They were neither up nor down
+====> Haha he said down
+]777;notify;Command completed;sed  '/down/ a\
+====> Haha he said down
+' ../dukeofyork.txt]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed  '/down/ a\
+====> Haha he said down
+' ../dukeofyork.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pa\[K
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csed  '/down/a\
+====> Haha he said down
+' ../dukeofyork.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C' ../dukeofyork.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+The grand old Duke of York
+He had ten thousand men
+He marched them up to the top of the hill
+And he marched them down again
+====> Haha he said down
+And when they were up they were up
+And when they were down they were down
+====> Haha he said down
+And when they were only half-way up
+They were neither up nor down
+====> Haha he said down
+]777;notify;Command completed;sed  '/down/a\
+====> Haha he said down' ../dukeofyork.txt]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed  '/down/a\
+====> Haha he said down' ../dukeofyork.txt
+The grand old Duke of York
+He had ten thousand men
+He marched them up to the top of the hill
+And he marched them down again
+====> Haha he said down
+And when they were up they were up
+And when they were down they were down
+====> Haha he said down
+And when they were only half-way up
+They were neither up nor down
+====> Haha he said down
+]777;notify;Command completed;sed  '/down/a\
+====> Haha he said down' ../dukeofyork.txt]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed  '/down/a\
+====> Haha he said down' ../dukeofyork.txt
+The grand old Duke of York
+He had ten thousand men
+He marched them up to the top of the hill
+And he marched them down again
+====> Haha he said down
+And when they were up they were up
+And when they were down they were down
+====> Haha he said down
+And when they were only half-way up
+They were neither up nor down
+====> Haha he said down
+]777;notify;Command completed;sed  '/down/a\
+====> Haha he said down' ../dukeofyork.txt]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed  '/down/a\
+====> Haha he said down' ../dukeofyork.txt[C[1@\
+The grand old Duke of York
+He had ten thousand men
+He marched them up to the top of the hill
+And he marched them down again
+====> Haha he said down
+And when they were up they were up
+And when they were down they were down
+====> Haha he said down
+And when they were only half-way up
+They were neither up nor down
+====> Haha he said down
+]777;notify;Command completed;sed  '/down/a\
+====> Haha he said down\' ../dukeofyork.txt]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0m[H[2J[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed  '/down/a\
+====> Haha he said down\' ../dukeofyork.txt[A[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0m[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csed ''a'\'[K
+[0;38;5;252;48;5;240;1m                                             [0;38;5;240;49;22m [0m\
+[0;38;5;252;48;5;240;1m                                             [0;38;5;240;49;22m [0m' ../dukeofyouk.[K[K[Krk.txt'[K
+The grand old Duke of York
+
+
+He had ten thousand men
+
+
+He marched them up to the top of the hill
+
+
+And he marched them down again
+
+
+And when they were up they were up
+
+
+And when they were down they were down
+
+
+And when they were only half-way up
+
+
+They were neither up nor down
+
+
+]777;notify;Command completed;sed 'a\
+\
+' ../dukeofyork.txt]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0mcat >sedscrup[K[Kipt2
+/down/a\
+===> He said down
+//^[[D     up/a\
+===> He said Up
+]777;notify;Command completed;cat >sedscript2]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -f sedscript2 ../dukeofyork.txt 
+The grand old Duke of York
+He had ten thousand men
+He marched them up to the top of the hill
+===> He said Up
+And he marched them down again
+===> He said down
+And when they were up they were up
+===> He said Up
+And when they were down they were down
+===> He said down
+And when they were only half-way up
+===> He said Up
+They were neither up nor down
+===> He said down
+===> He said Up
+]777;notify;Command completed;sed -f sedscript2 ../dukeofyork.txt ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0mcat [K[K[K[Ksed -f sedscript2 ../dukeofyork.txt [21Pcat >sedscript2[Kinsert
+/again/ i\
+===> He's anoun  to        bout to say again
+/again/a\
+===? < > Hes  said aha  gain
+]777;notify;Command completed;cat >sedscriptinsert]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -f sedscriptinsert../ ../[C[C[Cdukeofyork.txt 
+The grand old Duke of York
+He had ten thousand men
+He marched them up to the top of the hill
+===> He's about to say again
+And he marched them down again
+===> He said again
+And when they were up they were up
+And when they were down they were down
+And when they were only half-way up
+They were neither up nor down
+]777;notify;Command completed;sed -f sedscriptinsert ../dukeofyork.txt ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -f sedscriptinsert ../dukeofyork.txt [21Pcat >sedscriptinsertsed -f sedscript2 ../dukeofyork.txt [21Pcat >sedscript2[8Psed 'a\
+\
+' ../dukeofyork.txt[A[A[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0m[C[C[C[C '/down/a\
+====> Haha he said down\' ../dukeofyork.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0m[C[C[C[C[C[C[C[C[C[C[C[C a\
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C                   
+' ../dukeofyork.txt[A[A[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 
+
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[A[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 
+
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[A[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0m[C[C[C[C[C[C[C[C[C[C[C[C[1Pa\
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C' ../dukeofyork.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@\[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0m[C[C[C[C'a\       
+\                                          
+' ../dukeofyork.txt[A[A[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0mcat >sedscript2
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csed -f sedscript2 ../dukeofyork.txt [16Pcat >sedscriptinsertsed -f sedscriptinsert ../dukeofyork.txt [Ksd [K[Ked ''/'t'o'p'/','/'a'g'a'i'n'/'c'[K\
+[0;38;5;252;48;5;240;1m                                             [0;38;5;240;49;22m [0mH treated them inconsistently' ../dukeofyork.txt
+The grand old Duke of York
+He had ten thousand men
+H treated them inconsistently
+And when they were up they were up
+And when they were down they were down
+And when they were only half-way up
+They were neither up nor down
+]777;notify;Command completed;sed '/top/,/again/c\
+H treated them inconsistently' ../dukeofyork.txt]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0mexit
+exit
+
+Script done on 2018-09-08 13:38:29+05:30

@@ -1,0 +1,124 @@
+Script started on 2018-08-26 13:23:07+05:30
+[?25l[?7l[0m[34m[1m          /:-------------:\ 
+       :-------------------:: 
+     :-----------[37m[0m[1m/shhOHbmp[0m[34m[1m---:\ 
+   /-----------[37m[0m[1momMMMNNNMMD  [0m[34m[1m---: 
+  :-----------[37m[0m[1msMMMMNMNMP[0m[34m[1m.    ---: 
+ :-----------[37m[0m[1m:MMMdP[0m[34m[1m-------    ---\ 
+,------------[37m[0m[1m:MMMd[0m[34m[1m--------    ---: 
+:------------[37m[0m[1m:MMMd[0m[34m[1m-------    .---: 
+:----    [37m[0m[1moNMMMMMMMMMNho[0m[34m[1m     .----: 
+:--     .[37m[0m[1m+shhhMMMmhhy++[0m[34m[1m   .------/ 
+:-    -------[37m[0m[1m:MMMd[0m[34m[1m--------------: 
+:-   --------[37m[0m[1m/MMMd[0m[34m[1m-------------; 
+:-    ------[37m[0m[1m/hMMMy[0m[34m[1m------------: 
+:--[37m[0m[1m :dMNdhhdNMMNo[0m[34m[1m------------; 
+:---[37m[0m[1m:sdNMMMMNds:[0m[34m[1m------------: 
+:------[37m[0m[1m:://:[0m[34m[1m-------------:: 
+:---------------------:// 
+[17A[9999999D[37C[0m[1m[0m[34m[1mkartiksudarshan@[0m[34m[1mfedora[0m 
+[37C[0m----------------------[0m 
+[37C[0m[34m[1mOS[0m[0m:[0m Fedora release 28 (Twenty Eight) x86_64[0m 
+[37C[0m[34m[1mHost[0m[0m:[0m 80E5 Lenovo G50-80[0m 
+[37C[0m[34m[1mKernel[0m[0m:[0m 4.17.12-200.fc28.x86_64[0m 
+[37C[0m[34m[1mUptime[0m[0m:[0m 4 hours, 42 mins[0m 
+[37C[0m[34m[1mPackages[0m[0m:[0m 2694[0m 
+[37C[0m[34m[1mShell[0m[0m:[0m bash 4.4.23[0m 
+[37C[0m[34m[1mResolution[0m[0m:[0m 1366x768[0m 
+[37C[0m[34m[1mDE[0m[0m:[0m GNOME 3.28.3[0m 
+[37C[0m[34m[1mTheme[0m[0m:[0m Adwaita [GTK2/3][0m 
+[37C[0m[34m[1mIcons[0m[0m:[0m Adwaita [GTK2/3][0m 
+[37C[0m[34m[1mTerminal[0m[0m:[0m script[0m 
+[37C[0m[34m[1mCPU[0m[0m:[0m Intel i5-5200U (4) @ 2.700GHz[0m 
+[37C[0m[34m[1mGPU[0m[0m:[0m AMD Radeon HD 8670A/8670M/8690M[0m 
+[37C[0m[34m[1mGPU[0m[0m:[0m Intel HD Graphics 5500[0m 
+[37C[0m[34m[1mMemory[0m[0m:[0m 2761MiB / 7895MiB[0m 
+
+[37C[0m[30m[40m   [0m[31m[41m   [0m[32m[42m   [0m[33m[43m   [0m[34m[44m   [0m[35m[45m   [0m[36m[46m   [0m[37m[47m   [0m
+
+
+[?25h[?7h]777;notify;Command completed;sed -n "/sed/p" SED_CH01-02.log ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0m[H[2J[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0m
+]777;notify;Command completed;sed -n "/sed/p" SED_CH01-02.log ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0m
+]777;notify;Command completed;sed -n "/sed/p" SED_CH01-02.log ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0m
+]777;notify;Command completed;sed -n "/sed/p" SED_CH01-02.log ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed ''s'/'t'h'e'/'T'h'e'/'[C ../dukeofyork.txt 
+The grand old Duke of York
+He had ten thousand men
+He marched Them up to the top of the hill
+And he marched Them down again
+And when They were up they were up
+And when They were down they were down
+And when They were only half-way up
+They were neiTher up nor down
+]777;notify;Command completed;sed 's/the/The/' ../dukeofyork.txt ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed 's/the/The/' ../dukeofyork.txt [1@-[1@n[1@ 
+]777;notify;Command completed;sed -n 's/the/The/' ../dukeofyork.txt ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -n 's/the/The/' ../dukeofyork.txt [1@p
+He marched Them up to the top of the hill
+And he marched Them down again
+And when They were up they were up
+And when They were down they were down
+And when They were only half-way up
+They were neiTher up nor down
+]777;notify;Command completed;sed -n 's/the/The/p' ../dukeofyork.txt ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -n 's/the/The/p' ../dukeofyork.txt [1@g
+He marched Them up to The top of The hill
+And he marched Them down again
+And when They were up They were up
+And when They were down They were down
+And when They were only half-way up
+They were neiTher up nor down
+]777;notify;Command completed;sed -n 's/the/The/pg' ../dukeofyork.txt ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -n 's/the/The/pg' ../dukeofyork.txt [C[1P[1@e[C[C[C[C[C[C[C[1P[1P[1P[1@u[1@p[C[C[C[C[1P[1P[1P[1@U[1@P[C[C[C[1P[1P[1@0[1@0[1P[1P[C[C[1@ [1@-[1@e[C[1@ [1@"[1@"[1P[1P[1@'[1@'[1@s[1@/[1@/[Ksed -e 's/up/UP/' -e 's//' ../dukeofyork.txt [C[1@d[1@o[1@w[1@n[C[1@D[1@o[1@w[1@n[C[1P[1P[1P[1@O[1@W[1@N
+sed: -e expression #2, char 11: unterminated `s' command
+]777;notify;Command completed;sed -e 's/up/UP/' -e 's/down/DOWN' ../dukeofyork.txt ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -e 's/up/UP/' -e 's/down/DOWN' ../dukeofyork.txt [C[C[1@/
+The grand old Duke of York
+He had ten thousand men
+He marched them UP to the top of the hill
+And he marched them DOWN again
+And when they were UP they were up
+And when they were DOWN they were down
+And when they were only half-way UP
+They were neither UP nor DOWN
+]777;notify;Command completed;sed -e 's/up/UP/' -e 's/down/DOWN/' ../dukeofyork.txt ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -e 's/up/UP/' -e 's/down/DOWN/' ../dukeofyork.txt [1P[1P[1P[1P[1P[1@t[1@h[1@e[C[1@T[1@h[1@e[1@/[1@0[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1@t[1@h[1@e[1@m[Ksed -e 's/the/The/' -e 's/them/DOWN/' ../dukeofyork.txt [1P[1P[1P[1P[1@H[1@I[1@M[C[C[C[1@ [1@-[1@e[C[1@ [1@'[1@'[1@s[1@/[1@/[1@t[1@h[1@e[1@y[1@ [1@w[1@e[1@r[1@e[C[1@H[1@e[1@ [1@W[1@a[1@s[1@/
+The grand old Duke of York
+He had ten thousand men
+He marched Them up to the top of the hill
+And he marched Them down again
+And when They were up He Was up
+And when They were down He Was down
+And when They were only half-way up
+They were neiTher up nor down
+]777;notify;Command completed;sed -e 's/the/The/' -e 's/them/HIM/' -e 's/they were/He Was/' ../dukeofyork.txt ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -e 's/the/The/' -e 's/them/HIM/' -e 's/they were/He Was/' ../dukeofyork.txt [1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[1@ [16@-e 's/them/HIM/'
+The grand old Duke of York
+He had ten thousand men
+He marched HIM up to The top of the hill
+And he marched HIM down again
+And when They were up He Was up
+And when They were down He Was down
+And when They were only half-way up
+They were neiTher up nor down
+]777;notify;Command completed;sed -e 's/them/HIM/' -e 's/the/The/' -e 's/they were/He Was/' ../dukeofyork.txt ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0m
+]777;notify;Command completed;sed -e 's/them/HIM/' -e 's/the/The/' -e 's/they were/He Was/' ../dukeofyork.txt ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0m
+]777;notify;Command completed;sed -e 's/them/HIM/' -e 's/the/The/' -e 's/they were/He Was/' ../dukeofyork.txt ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -e 's/them/HIM/' -e 's/the/The/' -e 's/they were/He Was/' ../dukeofyork.txt [1P[1P[1P[1P[1P[1P[1@;[1@0[1@0[1@0[1@0[1@0[1@0[1@0[1@0[1@0[1@0[1@0[1@0[1@0[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P
+The grand old Duke of York
+He had ten thousand men
+He marched HIM up to The top of the hill
+And he marched HIM down again
+And when They were up they were up
+And when They were down they were down
+And when They were only half-way up
+They were neiTher up nor down
+]777;notify;Command completed;sed -e 's/them/HIM/ s/the/The/'  ../dukeofyork.txt ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0mcat >script
+s/up/UP/
+s/down/DOWN/
+s/the/The/
+]777;notify;Command completed;cat >script]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0mmv script sdscript
+]777;notify;Command completed;mv script sdscript]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0msed -f sdscript ../dukeofyork.txt 
+The grand old Duke of York
+He had ten thousand men
+He marched Them UP to the top of the hill
+And he marched Them DOWN again
+And when They were UP they were up
+And when They were DOWN they were down
+And when They were only half-way UP
+They were neiTher UP nor DOWN
+]777;notify;Command completed;sed -f sdscript ../dukeofyork.txt ]0;kartiksudarshan@fedora:~/workspace/TextProcessing/RegEx/SED/Ch03-04]7;file://fedora/home/kartiksudarshan/workspace/TextProcessing/RegEx/SED/Ch03-04[0;38;5;231;48;5;31;1m kartiksudarshan [0;38;5;31;48;5;240;22m [0;38;5;250;48;5;240m… [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mRegEx [0;38;5;245;48;5;240;22m [0;38;5;250;48;5;240mSED [0;38;5;245;48;5;240;22m [0;38;5;252;48;5;240;1mCh03-04 [0;38;5;240;49;22m [0mexit
+exit
+
+Script done on 2018-08-26 13:36:19+05:30

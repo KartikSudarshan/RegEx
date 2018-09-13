@@ -1,0 +1,118 @@
+# RegEx Complete
+Created Wednesday 13 June 2018
+
+Source: Lynda.com
+Instructor: Kevin Skoglund
+
+Using Regular Expressions to find and manipulate text.
+Use basic Symbols and basic syntax for regular expressions, character sets and repitation expressions to create flexible matching patterns
+How it utilizes lazy and greedy stategies when a match is found.
+Capture text and refer back to it using back references
+
+Look around assertions helps create complex matching patterns
+explore some of the most common and most useful RegEx by building it step by step
+
+What are Regular Expressions
+----------------------------
+Regular Expressions are all about Text. e.g. email, text , stock market exchange, address books, tags etc...
+RegEx(p) is a toolthat allows s to work with these text by describing text patterns
+So regular expressions is a set of Symbols that describe a text pattern
+Regular Expressions: formal language interpreted by reguar expression processor (Processor will use the symbols to match, search & manipulate text )
+Regex is **not** a programming language, they are symbols to describe a text pattern.
+Programming Language uses Regex like re library in python
+
+E.g.
+Test if phone number has correct number of digits, email address is in valid format, etc..
+
+**Matches:** A regular expression matches text if it correctly describes the text OR
+Text matches regular expression if it is correctly described by the expression
+
+History of Regular Expressions
+------------------------------
+After 1968,  RegEx  came into computers via Ken Thompson who implements regular expressions in ed an early unix text editor
+
+### Global Regular Expression Print (grep)
+**g**/**R**egular **E**xpression/**p ** 
+it became so popular it became a stand alone program & popularly used in other Unix Programs (awk, vi, emacs, etc...)
+
+### Grep began to evolve
+Standardization & backward compatibility of the syntax became a problem.
+egrep (extended grep similar to *grep -e* ): use the new modified syntax
+but still many incompatibilities came
+so a Standard was defined:
+
+#### 1986: POSIX (Portable Operating System Interface)
+Standard to ensure compatibility between operating systems. Thus 2 forms of grep
+
+1. Basic Regular Expressions (BREs i.e. grep): Meant for compatibility in old tools
+2. Extended Regular Expressions (EREs i.e. egrep): Most modern tools will use
+
+	
+Now Programer choose what kind of implementation to be used 
+
+Next Henry Spencer releases regex library in C
+thus it can be incorporated in other programs
+provides consistency
+
+
+#### 1987: Larry Wall releases perl
+that uses Spencers RegEx lib
+& over time added many powerful features
+
+Perl compatible languages and programs:
+Apache, C/C++, C#/VB/.NET, Java, JavaScript, MySQL, PHP, Python, Ruby
+PCRE (Perl compatible regular expression) library
+All are tools used to build internet and websites
+
+
+Regular Expressions Engine
+--------------------------
+All implementations of RegEx are slighly different even though most languages are attempting to offer Perl-compatible regular expressions.
+Each implementation of the RegEx Precessor can be reffered to as an engine/flavour
+
+* C/C++
+* Java
+* JavaScript/Action Script (ECMAScript) European Computer Manufacturers Association
+* .NET
+* Perl
+* Php (PCRE)
+* Ruby
+* Unix (POSIX BRE & POSIX ERE)
+* Apache (v1: POSIX ERE, v2 PCRE)
+* MySQL (POSIX ERE)
+
+
+Most of the basic Features are same through out all of the above.
+
+Installing an engine
+--------------------
+
+* grep/egrep
+* TextMate/e Text editor
+* BBEdit
+* EditPad Pro
+* PowerGrep
+* RegexBuddy
+* RegexMagic
+* C/C++,Java,.Net,Perl,PHP,Python,Ruby
+* Mobile Apps
+
+
+Using Javascript version online <http://regexpal.com>  (it is opensource code)
+
+
+Notation, convention and mode
+-----------------------------
+When we use Regex its will be similar to ``/abc/ ``as in  ``g/re/p ``
+While using Regex pal
+So use without ``"/"`` & ' ``\" ``'
+
+##### Modes (a modifier on how the regular expression has to be handled)
+
+* Standard: ``/re/``    	(regular expression as it is)
+* Global: ``/re/g``		
+* Case-insensitive: ``/re/i`` 
+* Multiline: ``/re/m``
+* Dot matches all: ``/re/s``
+
+
